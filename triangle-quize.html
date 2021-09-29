@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle-quize</title>
+    <link href="triangle-quize.css"rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Is Triangle?</a>
+        <a href="quiz.html">Triangle Quiz</a>
+        <a href="hypoteneous.html">Calculate Hypoteneous</a>
+        <a href="area.html">Calculate Area</a>
+    </nav>
+
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+       
+        <div class="question-container">
+            <p>1.If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label><input type="radio" name="question2" value="acute" />acute</label>
+            <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
+            <label><input type="radio" name="question2" value="right angled" />right angled</label>
+        </div>
+        
+        <div class="question-container">
+            <p>2.If a triangle having at least two equal sides, what is it called?</p>
+            <label><input type="radio" name="question4" value="acute triangle" />acute</label>
+            <label><input type="radio" name="question4" value="obtuse triangle" />obtuse</label>
+            <label><input type="radio" name="question4" value="isosceles triangle" />isosceles triangle</label>
+        </div>
+        <div class="question-container">
+            <p>3.If a triangle having three equal sides, what is it called?</p>
+            <label><input type="radio" name="question5" value="acute triangle" />acute</label>
+            <label><input type="radio" name="question5" value="obtuse triangle" />obtuse</label>
+            <label><input type="radio" name="question5" value="equilateral triangle" />equilateral triangle</label>
+        </div>
+       
+        <div class="question-container">
+            <p>4.What is a triangle that contains no right angle called?</p>
+            <label><input type="radio" name="question7" value="oblique" />oblique</label>
+            <label><input type="radio" name="question7" value="right" />right</label>
+            <label><input type="radio" name="question7" value="opaque" />opaque</label>
+        </div>
+        <div class="question-container">
+            <p>5.An equilateral triangle is also an _______ triangle.</p>
+            <label><input type="radio" name="question8" value="acute" />acute</label>
+            <label><input type="radio" name="question8" value="right" />right</label>
+            <label><input type="radio" name="question8" value="obtuse" />obtuse</label>
+        </div>
+       
+        <div class="question-container">
+            <p>6.An equilateral triangle is also an _______ triangle.</p>
+            <label><input type="radio" name="question10" value="acute" />acute</label>
+            <label><input type="radio" name="question10" value="right" />right</label>
+            <label><input type="radio" name="question10" value="obtuse" />obtuse</label>
+            </div>
+            <div class="question-container">
+            <p>7.What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" name="question1" value="45°" />45°</label>
+            <label><input type="radio" name="question1" value="60°" />60°</label>
+            <label><input type="radio" name="question1" value="90°" />90°</label>
+        </div>
+    </form>
+    <button id="submit-answer-btn">Submit Answers</button>
+    <div id="output"></div>
+    <script src="/triangle-quize.js"></script>
+</body>
+</html>
