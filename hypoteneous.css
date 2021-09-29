@@ -1,0 +1,65 @@
+*{
+    margin:0;
+}
+nav{
+    width:100%;
+    background-color: aqua;
+    color:black;
+    font-size:1rem;
+    text-align:center;
+    height:3em;
+}
+a{
+    text-decoration: none;
+    margin-top:1rem;
+    margin:auto;
+    padding:1rem;
+}
+img{
+   
+    width: 100%;
+    height:auto;
+    z-index:-1;
+    background-size: cover;
+    background-blend-mode: multiply; 
+    position: absolute;
+    top: 80;
+    left: 0;
+    z-index: -3;
+    filter: blur(1px);
+    
+}
+label, input, button{
+    display:block;
+    width:50%;
+    text-align: center;
+    margin:auto;
+    padding:1rem;
+
+}
+label{
+    font-size:1rem;
+    color:aqua;
+}
+#hypoteneous-btn{
+    margin-top:1rem;
+    max-width:20%;
+    border-radius:1rem;
+    background-color: aqua;
+    color:blue;
+}
+h1,h2{
+    display: block;
+    text-align: center;
+    margin:auto;
+    padding:1.5rem;
+    color: aqua;
+}
+#output{
+    text-align:center;
+    padding:1.5rem;
+    font-size:larger;
+    color:blue;
+    
+    
+}
